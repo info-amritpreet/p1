@@ -1,9 +1,5 @@
 {
   "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://argeet.in/:path*",
-      "permanent": true
-    }
+    { "source": "/:path*", "destination": "https://argeet.in/:path*", "permanent": true }
   ]
 }
