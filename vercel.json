@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://argeet.com/:path*",
+      "destination": "https://argeet.in/:path*",
+      "permanent": true
+    }
+  ]
+}
