@@ -1,5 +1,13 @@
 {
   "redirects": [
-    { "source": "/:path*", "destination": "https://argeet.in/:path*", "permanent": true }
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "argeet.com" },
+        { "type": "host", "value": "www.argeet.com" }
+      ],
+      "destination": "https://argeet.in/:path*",
+      "permanent": true
+    }
   ]
 }
