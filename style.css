@@ -1,0 +1,59 @@
+.topbar {
+  background-color: chocolate;
+  color: white;
+  padding: 8px;
+  padding-top: 11px;
+}
+
+.tagline {
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.logo {
+  color: #886306;
+}
+
+.tm{
+  position:relative;
+  top:-24px;
+  left: -6px;
+  font-size:12px;
+}
+
+.mm-g{
+  background:linear-gradient(to right,#a11c0f,#5928ab);
+  color:white;
+  padding:6px 20px;
+  width:100%;
+  margin:0;
+  font-size: 24px;
+}
+
+.gm-g{
+  background:linear-gradient(to right,#405226,#7a1d1d);
+  color:white;
+  padding:6px 20px;
+  width:100%;
+  margin:0;
+}
+
+.tm-g{
+  background:linear-gradient(to right,#306b5d,#c06998);
+  color:white;
+  padding:6px 20px;
+  width:100%;
+  margin:0;
+}
+
+.product-div {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.copy-right {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
