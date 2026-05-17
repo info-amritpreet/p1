@@ -12,12 +12,18 @@
 
 .logo {
   color: #886306;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(173, 171, 171);
 }
 
 .tm{
   position:relative;
-  top:-24px;
-  left: -6px;
+  top:-36px;
+  left: -9px;
   font-size:12px;
 }
 
@@ -46,7 +52,7 @@
   margin:0;
 }
 
-.product-div {
+.product-div {  
   margin-bottom: 20px;
   font-size: 24px;
 }
@@ -56,4 +62,87 @@
   margin-bottom: 30px;
   padding-top: 12px;
   padding-bottom: 5px;
+}
+
+.cursive{
+  font-family: "Courgette", cursive;
+}
+
+.intro{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about {
+  font-size: 16px;
+}
+
+.intro-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.diff-section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.promise-section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.diff-section h3 {
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(173, 171, 171);
+}
+
+.promise-section h3 {
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(173, 171, 171);
+}
+
+.fssai-section {
+  background-color: #87CEFA;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  height: 300px;
+}
+
+.udyam-section {
+    background-color: #d3fca5;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fssai-logo {
+  width: 33%;
+  height: auto;
+  margin: auto;  
+}
+
+.udyam {
+  font-size: 50px;
+  padding-bottom: 21px;
+}
+
+.reg-no {
+  font-size: 24px;
+}
+
+.sub-heading {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(173, 171, 171);  
 }
