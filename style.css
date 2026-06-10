@@ -102,15 +102,14 @@ body {
 }
 
 .fssai-section {
-  background-color: #87CEFA;
-  padding-top: 20px;
+  height: 125px;
+  background-color: #F8F9cA;
   padding-bottom: 5px;
-  height: 150px;
 }
 
 .udyam-section {
-  background-color: #d3fca5;
-  height: 150px;
+  height: 125px;
+  background-color: #E8F5E9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +117,7 @@ body {
 }
 
 .fssai-logo {
-  width: 24%;
+  width: 116px;
   height: auto;
   margin: auto;
 }
@@ -126,6 +125,7 @@ body {
 .udyam {
   font-size: 36px;
   padding-top: 11px;
+  color: #198754;
 }
 
 .reg-no {
@@ -183,7 +183,7 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: burlywood;
-  padding: 10px;
+  padding: 6px;
 }
 
 .bg-section {
