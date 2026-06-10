@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 .topbar {
   background-color: chocolate;
   color: white;
@@ -15,9 +19,6 @@
   padding-top: 40px;
   padding-bottom: 10px;
   font-size: 50px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(173, 171, 171);
 }
 
 .tm {
@@ -69,27 +70,28 @@
 }
 
 .intro {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .about {
   font-size: 16px;
+  text-align: justify;  
+}
+
+.about li {
+  padding-bottom: 10px;
 }
 
 .intro-section {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .diff-section {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-.promise-section {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .diff-section h3 {
@@ -99,24 +101,16 @@
   border-bottom-color: rgb(173, 171, 171);
 }
 
-.promise-section h3 {
-  padding-bottom: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(173, 171, 171);
-}
-
 .fssai-section {
   background-color: #87CEFA;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  height: 150px;
 }
 
 .udyam-section {
   background-color: #d3fca5;
-  height: 300px;
-
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,24 +118,23 @@
 }
 
 .fssai-logo {
-  width: 33%;
+  width: 24%;
   height: auto;
   margin: auto;
 }
 
 .udyam {
-  font-size: 78px;
-  padding-bottom: 11px;
+  font-size: 36px;
+  padding-top: 11px;
 }
 
 .reg-no {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .sub-heading {
   font-size: 40px;
-  padding-top: 40px;
-  padding-bottom: 16px;
+  padding-top: 16px;  
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(173, 171, 171);
@@ -176,7 +169,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 30px;
-  padding: 20px;
+  padding: 10px 27px;
   color: white;
 }
 
@@ -185,6 +178,77 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.pkbox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: burlywood;
+  padding: 10px;
+}
+
+.bg-section {
+    position: relative;
+    background-image: url('images/bg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.8); /* increase 0.7 to make image less visible */
+}
+
+.bg-section > * {
+    position: relative;
+    z-index: 1;
+}
+
+.dangler {
+    position: relative;
+    background: #fffdf8;
+    border: 3px solid #d4af37;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.dangler::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    width: 2px;
+    height: 40px;
+    background: #555;
+    transform: translateX(-50%);
+}
+
+.dangler::after {
+    content: "";
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #555;
+    border-radius: 50%;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.dangler-spice {
+    position: absolute;
+    top: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: auto;
+    z-index: 10;
+}
+
 
 @media (max-width:768px) {
 
