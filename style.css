@@ -162,6 +162,10 @@ body {
   font-family: Courgette;
 }
 
+.size-table td:not(:first-child) {
+    text-align: center;
+    vertical-align: middle;
+}
 
 .whatsapp-link,
 .whatsapp-link:hover,
