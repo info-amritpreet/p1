@@ -53,11 +53,6 @@ body {
   margin: 0;
 }
 
-.product-div {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .copy-right {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -140,19 +135,33 @@ body {
   border-bottom-color: rgb(173, 171, 171);
 }
 
-.product {
-  width: auto;  
-  height: 200px;
-  max-height: 200px;
-  display: block;
-  margin: auto;
-}
-
 .product-row {
   margin-top: 10px;
   margin-bottom: 10px;
-  min-height: 300px;
+  min-height: 200px;
 }
+
+.product-div {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.product-div > div {
+  height: 130px;
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+}
+
+.product {
+  width: auto;
+  max-height: 200px;
+}
+
+.product-name {
+  font-family: Courgette;
+}
+
 
 .whatsapp-link,
 .whatsapp-link:hover,
@@ -161,9 +170,7 @@ body {
     color:white;
 }
 
-.product-name {
-  font-family: Courgette;
-}
+
 
 .order-btn {
   border-style: solid;
