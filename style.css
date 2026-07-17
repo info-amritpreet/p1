@@ -149,6 +149,13 @@ body {
   /* Space between 40 g and 85 */
 }
 
+.order-on-wa {
+  color: green;
+}
+
+.pouch {
+  height: 300px;
+}
 
 .product-image {
     height: 450px;
@@ -167,6 +174,13 @@ body {
 .product {
     max-width: 100%;
     max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.product-pouch {
+    max-width: 100%;
+    max-height: 380px;
     width: auto;
     height: auto;
 }
@@ -196,9 +210,12 @@ body {
   /* Keep header above cells */
 }
 
-.whatsapp-link,
-.whatsapp-link:hover,
-.whatsapp-link:focus {
+.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.WhatsApp-link {
   text-decoration: none;
   color: white;
 }
