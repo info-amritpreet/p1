@@ -72,6 +72,7 @@ body {
   font-weight: 300;
   text-align: justify;
   color: #252525;
+  padding-top: 20px;
 }
 
 .about {
@@ -154,6 +155,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;   /* All images touch the same bottom line */
+    padding: 16px;
 }
 
 @media (min-width: 768px) {
