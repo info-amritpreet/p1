@@ -9,5 +9,16 @@
       "destination": "https://argeet.in/:path*",
       "permanent": true
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*).(html|htm)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
   ]
 }
