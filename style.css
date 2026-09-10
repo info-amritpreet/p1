@@ -90,7 +90,7 @@ body {
 }
 
 .fssai-section {
-  height: 125px;
+  height: auto;
   background-color: #F8F9cA;
   padding-bottom: 5px;
 }
@@ -138,7 +138,7 @@ body {
 
 .product-div>div {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   width: 100%;
 }
 
@@ -154,31 +154,31 @@ body {
 }
 
 .product-image {
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;   /* All images touch the same bottom line */
-    padding: 16px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* All images touch the same bottom line */
 }
 
 @media (min-width: 768px) {
-    .product-image {
-        height: 300px;
-    }
+  .product-image {
+    height: 300px;
+  }
 }
 
 .product {
-    max-width: 100%;
-    max-height: 400px;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
 }
 
 .product-pouch {
-    max-width: 100%;
-    max-height: 380px;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  max-height: 380px;
+  width: auto;
+  height: auto;
 }
 
 .product-name {
@@ -315,11 +315,30 @@ body {
   .product-row .col-md-4,
   .product-row .col-md-6,
   .product-row .col-md-8 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
 
   .sub-heading {
     font-size: 28px;
+  }
+
+  .product-image {
+    height: auto;    
+  }
+}
+
+/* Hide the mobile image by default (on Desktop) */
+.mobile-only {
+  display: none;
+}
+
+/* When the screen is 767px wide or less (Mobile) */
+@media screen and (max-width: 767px) {
+  .desktop-only {
+    display: none; /* Hide desktop image */
+  }
+  .mobile-only {
+    display: block; /* Show mobile image */
   }
 }
