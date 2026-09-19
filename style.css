@@ -125,7 +125,7 @@ body {
     color: #524b41;
     font-size: 15px;
     line-height: 1.4;
-    height: 90px;
+    height: 70px;
     font-family: sans-serif;
 }
 
@@ -135,9 +135,11 @@ body {
 ======================================== */
 
 .price-list {
-    width: 100%;
+    width: 150px;
     font-family: sans-serif;
-    height: 100px;
+    height: 60px;
+    font-size: 16px;
+    color: #444444;
 }
 
 .price-bar {
@@ -159,7 +161,7 @@ body {
 
 .w-order-btn {
     width: 100%;
-    margin-top: auto;
+    margin-top: 40px;
     padding: 8px 5px;
     white-space: normal;
 }
@@ -270,7 +272,7 @@ body {
 
     .w-order-btn {
         padding: 7px 4px;
-        margin-top: auto;
+        margin-top: 40px;
     }
 
     .w-order-btn i {
@@ -334,7 +336,7 @@ body {
     }
 
     .product-details p {
-        margin-bottom: 8px;
+        margin-bottom: 2px;
         font-size: 13px;
         line-height: 1.3;
     }
