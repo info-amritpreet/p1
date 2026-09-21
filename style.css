@@ -135,11 +135,12 @@ body {
 ======================================== */
 
 .price-list {
-    width: 150px;
+    width: 115px;
     font-family: sans-serif;
     height: 60px;
     font-size: 16px;
     color: #444444;
+    padding-top: 10px;
 }
 
 .price-bar {
@@ -153,6 +154,8 @@ body {
     font-size: 15px;      
     cursor: pointer;  
 }
+
+
 
 
 /* ========================================
@@ -208,7 +211,7 @@ body {
     }
 
     .w-order-btn span {
-        font-size: 13px;
+        font-size: 14px;
     }
 
 
@@ -280,7 +283,7 @@ body {
     }
 
     .w-order-btn span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
@@ -356,7 +359,7 @@ body {
     }
 
     .w-order-btn span {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
