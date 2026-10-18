@@ -12,6 +12,54 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.outer {
+    height: 50vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.outer img {
+    max-height: 400px;
+}
+
+.description {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.prices {
+    font-family: sans-serif;
+}
+
+.title h2 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========================================
    TOPBAR
@@ -139,8 +187,9 @@ body {
     font-family: sans-serif;
     height: 60px;
     font-size: 16px;
-    color: #444444;
-    padding-top: 10px;
+    color: #333333;
+    position: relative;
+    bottom: -36px;
 }
 
 .price-bar {
@@ -163,10 +212,8 @@ body {
 ======================================== */
 
 .w-order-btn {
-    width: 100%;
-    margin-top: 40px;
     padding: 8px 5px;
-    white-space: normal;
+    white-space: normal;        
 }
 
 .w-order-btn i {
@@ -259,12 +306,12 @@ body {
 
     .product-details h2 {
         margin-bottom: 7px;
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .product-details p {
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.35;
     }
 
@@ -275,7 +322,6 @@ body {
 
     .w-order-btn {
         padding: 7px 4px;
-        margin-top: 40px;
     }
 
     .w-order-btn i {
@@ -283,7 +329,7 @@ body {
     }
 
     .w-order-btn span {
-        font-size: 14px;
+        font-size: 15px;
     }
 
 
