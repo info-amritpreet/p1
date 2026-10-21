@@ -36,35 +36,76 @@ body {
 }
 
 
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .22);
+    z-index: 9999;
+    text-decoration: none;
+    transition: transform .2s ease;
+}
 
+.whatsapp-float:hover {
+    transform: scale(1.06);
+}
 
+@media (max-width: 576px) {
+    .whatsapp-float {
+        right: 16px;
+        bottom: 16px;
+        width: 54px;
+        height: 54px;
+    }
+}
 
+.social-banner {
+    position: relative;
+    width: 100%;
+}
 
+.social-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
+.social-link {
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    border-radius: 50%;
+}
 
+/* Positions based on the supplied banner image */
+.facebook-link {
+    left: 43.5%;
+    width: 10.5%;
+}
 
+.youtube-link {
+    left: 57%;
+    width: 10.5%;
+}
 
+.instagram-link {
+    left: 70.5%;
+    width: 10.5%;
+}
 
+.whatsapp-link {
+    left: 84.5%;
+    width: 10.5%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ========================================
-   TOPBAR
-======================================== */
 
 .topbar {
     min-height: 55px;
@@ -78,19 +119,6 @@ body {
     height: 45px;
 }
 
-.top-order-btn {
-    white-space: nowrap;
-    font-size: 14px;
-}
-
-.top-order-btn i {
-    margin-right: 6px;
-}
-
-
-/* ========================================
-   HERO BANNER
-======================================== */
 
 .hero {
     width: 100%;
@@ -104,117 +132,9 @@ body {
 }
 
 
-/* ========================================
-   PRODUCTS SECTION
-======================================== */
-
-.products-section {
-    padding: 30px 20px;
-}
-
-
-/* ========================================
-   PRODUCT CARD
-======================================== */
-
-.product-card {
-    position: relative;
-    height: 100%;
-    padding: 12px;
-    overflow: hidden;
-    border: 1px solid #eae0d1;
-    border-radius: 12px;
-    background-color: #ffffff;
-}
-
-
-/* ========================================
-   PRODUCT IMAGE
-======================================== */
-
-.product-image-column {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-image {
-    position: relative;
-    z-index: 2;
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
-
-
-
-/* ========================================
-   PRODUCT DETAILS
-======================================== */
-
-.product-details {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 4px;
-}
-
-.product-details h2 {
-    margin: 0 0 8px;
-    font-family: "Alice", serif;
-    font-size: 21px;
-    line-height: 1.2;
-    color: #4c2d12;
-}
-
-.product-details p {
-    margin: 0 0 12px;
-    color: #524b41;
-    font-size: 15px;
-    line-height: 1.4;
-    height: 70px;
-    font-family: sans-serif;
-}
-
-
-/* ========================================
-   PRICE
-======================================== */
-
-.price-list {
-    width: 115px;
-    font-family: sans-serif;
-    height: 60px;
-    font-size: 16px;
-    color: #333333;
-    position: relative;
-    bottom: -36px;
-}
-
-.price-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 10px;
-    margin-bottom: 15px;
-    background-color: #f1e0cb;
-    color: #4c2d12;    
-    font-size: 15px;      
-    cursor: pointer;  
-}
-
-
-
-
-/* ========================================
-   WHATSAPP ORDER BUTTON
-======================================== */
-
 .w-order-btn {
     padding: 8px 5px;
-    white-space: normal;        
+    white-space: normal;
 }
 
 .w-order-btn i {
@@ -233,31 +153,6 @@ body {
 ======================================== */
 
 @media (max-width: 991.98px) {
-
-    .products-section {
-        padding: 25px 15px;
-    }
-
-    .product-card {
-        padding: 10px;
-    }
-
-    .product-details {
-        padding: 8px 3px;
-    }
-
-    .product-details h2 {
-        font-size: 19px;
-    }
-
-    .product-details p {
-        font-size: 13px;
-    }
-
-    .price-bar {
-        padding: 7px 8px;        
-    }
-
     .w-order-btn span {
         font-size: 14px;
     }
@@ -279,46 +174,6 @@ body {
 
     .logo {
         height: 42px;
-    }
-
-    .top-order-btn {
-        padding: 7px 10px;
-        font-size: 13px;
-    }
-
-    .products-section {
-        padding: 15px 10px;
-    }
-
-    .product-card {
-        padding: 9px;
-        border-radius: 11px;
-    }
-
-    /*
-       Keep the product card horizontal.
-       The image stays on the left
-       and details stay on the right.
-    */
-
-    .product-details {
-        padding: 1px 2px;
-    }
-
-    .product-details h2 {
-        margin-bottom: 7px;
-        font-size: 25px;
-    }
-
-    .product-details p {
-        margin-bottom: 10px;
-        font-size: 16px;
-        line-height: 1.35;
-    }
-
-    .price-bar {
-        padding: 7px 7px;
-        margin-bottom: 8px;        
     }
 
     .w-order-btn {
@@ -350,50 +205,6 @@ body {
 
     .logo {
         height: 38px;
-    }
-
-    .top-order-btn {
-        padding: 7px 10px;
-    }
-
-    .top-order-btn span {
-        display: none;
-    }
-
-    .top-order-btn i {
-        margin-right: 0;
-        font-size: 18px;
-    }
-
-    .products-section {
-        padding: 12px 8px;
-    }
-
-    .product-card {
-        padding: 7px;
-        border: none;
-    }
-
-    .product-details {        
-        padding-bottom: 5px;
-        padding-left: 1px;
-        padding-right: 10px;
-    }
-
-    .product-details h2 {
-        margin-bottom: 5px;
-        font-size: 21px;
-    }
-
-    .product-details p {
-        margin-bottom: 2px;
-        font-size: 13px;
-        line-height: 1.3;
-    }
-
-    .price-bar {
-        padding: 2px 9px;
-        margin-bottom: 15px;                
     }
 
     .w-order-btn {
@@ -436,6 +247,7 @@ body {
 }
 
 @media (max-width: 767.98px) {
+
     html,
     body {
         scrollbar-width: none;
