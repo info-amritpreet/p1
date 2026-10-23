@@ -35,6 +35,13 @@ body {
     font-size: 20px;
 }
 
+.argeet-heading {
+    background: linear-gradient(90deg, #7a4b16, #c18a2b, #966919);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .whatsapp-float {
     position: fixed;
